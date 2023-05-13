@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Aprendiendo CSS INTERMEDIO</h1>
+    <h2 class="subtitle">Selectores agrupados</h2>
+    <a href="">Link hermano directo</a>
+
+    <ol>
+      <li>FrontEnd</li>
+      <li>Backend</li>
+      <li>Unicornios</li>
+      <li>
+        <a href="">Ir a google</a>
+      </li>
+    </ol>
+
+    <a href="">Ir a google</a>
+
+    <a href="" class="linkSpecial">Ir a Facebook</a>
+
+    <h2 class="subtitle">Selectores agrupados</h2>
+
+    <div class="card">
+      <img src="" alt="" />
+      <div class="card-content">
+        <h3 class="card-title">HTML</h3>
+      </div>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos
+      commodi dignissimos libero possimus incidunt adipisci! Delectus, explicabo
+      magnam! Natus qui non nesciunt sit sint facilis maiores voluptatem
+      quisquam cum?
+    </p>
+    <label for="magia"> mostrar/ocultar </label>
+    <input type="checkbox" name="" id="magia" />
+    <ul class="menuMovil">
+      <li>
+        <a hrefli="">HOme</a>
+      </li>
+      <li>
+        <a href="">Services</a>
+      </li>
+      <li>
+        <a href="">About us</a>
+      </li>
+
+      <li>
+        <a href="">Contact us</a>
+      </li>
+      <li>
+        <a href="">Login</a>
+      </li>
+    </ul>
+
+    <div>
+      <p><a href="">Enlace 1</a></p>
+      <p><a href="">Enlace 2</a></p>
+      <a href="">Enlace 3</a>
+      <a href="">Enlace 4</a>
+    </div>
+
+    <hr />
+    <h2 class="subtitle">Formularios</h2>
+    <div class="formulario">
+      <form action="" method="get" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="username">Nombre de usuario:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Ingrese su nombre"
+          />
+          <!-- <input
+                type="password"
+                name="pwd"
+                placeholder="Ingrese su contrasenia"
+                /> -->
+          <label for="edad">Edad:</label>
+          <input
+            type="number"
+            name="age"
+            placeholder="Ingrese su edad"
+            id="edad"
+          />
+          <label for="correo">Correo electrónico:</label>
+          <input
+            type="text"
+            name="email"
+            id="correo"
+            placeholder="Ingrese su correo"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Datos académicos</legend>
+          <h3>Nivel de ingles</h3>
+          <input type="radio" id="basico" name="languaje" value="C" />
+          <label for="basico"> Ingles básico</label>
+
+          <input
+            type="radio"
+            id="intermedio"
+            name="languaje"
+            value="B"
+            checked
+          />
+          <label for="intermedio"> Ingles intermedio</label>
+
+          <input type="radio" id="avanzado" name="languaje" value="A" />
+          <label for="avanzado">Ingles avanzado</label>
+
+          <br />
+          <input type="checkbox" id="html" checked name="skills" id="skill" />
+          <label for="html">Html</label>
+          <input type="checkbox" checked name="skills" id="skill" /> <i>CSS</i>
+          <input type="checkbox" name="skills" id="skill" />
+          <i>Preprocesador</i>
+          <input type="checkbox" name="skills" id="skill" /> <i>Js</i>
+          <input type="file" name="picture" id="" />
+          <input type="hidden" name="oculto" value="1" />
+
+          <select name="puesto" id="ppuesto">
+            <option value="">--Seleccionar puesto--</option>
+            <option value="FE">Desarrollador Frontend</option>
+            <option value="BE">Desarrollador Backend</option>
+            <option value="FS">Desarrollador FullStack</option>
+            <option value="DO">Desarrollador DevOps</option>
+          </select>
+        </fieldset>
+
+        <input type="date" name="dateCurrent" />
+        <input type="time" name="time" />
+
+        <textarea name="description" id="description"></textarea>
+        <input type="reset" />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

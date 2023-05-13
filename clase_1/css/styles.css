@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none;
+    list-style-type: none;    */
+}
+
+.linkSpecial{
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 30px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.title, .subtitle, .card-title{
+    font-family: Arial;
+    color: steelblue;
+}
+
+.title + a{
+    color: crimson;
+    font-size: 25px;
+}
+
+
+
+
+
+#magia:checked + .menuMovil{
+    background-color: steelblue;
+}
+
+
+.menuMovil{
+    background-color: crimson;
+    padding: 20px;
+    list-style-type: none;
+    width: 450px;
+}
+
+.menuMovil li{
+    margin-bottom: 15px;
+}
+.menuMovil a{  /* 10 + 1  = 11*/
+    color: cyan;
+    text-decoration: none;
+}
+
+
+ul > li{   /* 1 + 1 = 2*/
+    color: yellow;
+    font-style: italic;
+}
+
+div > a {
+    color: red;
+}
+
+.menuMovil li:nth-child(even){
+    background-color: magenta;
+}
+hr + .subtitle{
+    text-align: center;
+}
+.formulario{
+    width: 60%;
+    margin: 30px auto;
+}
